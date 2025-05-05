@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intelligent Food Waste Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Intelligent Food Waste Tracker</h1>
+    </header>
+    <main>
+        <section id="food-item-form">
+            <h2>Add Food Item</h2>
+            <form id="add-food-item">
+                <input type="text" id="food-name" placeholder="Food Name" required>
+                <input type="number" id="food-quantity" placeholder="Quantity" required>
+                <input type="date" id="expiration-date" required>
+                <button type="submit">Add Food Item</button>
+            </form>
+        </section>
+        <section id="food-items-list">
+            <h2>Food Items</h2>
+            <ul id="food-items"></ul>
+        </section>
+        <section id="waste-tracking">
+            <h2>Track Waste</h2>
+            <button id="track-waste">Track Waste</button>
+            <div id="waste-analysis"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Intelligent Food Waste Tracker</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
